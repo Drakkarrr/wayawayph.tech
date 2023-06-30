@@ -2609,12 +2609,13 @@ figcaption {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
   bottom: auto;
   background-color: #f9f7ee;
+  opacity: 0.7;
 }
 
 .nav-dropdown {
