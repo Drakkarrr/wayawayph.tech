@@ -2675,7 +2675,7 @@ figcaption {
 }
 
 .navigation {
-  z-index: 50;
+  z-index: 99;
 }
 
 .mini-arrow {
@@ -2698,6 +2698,7 @@ figcaption {
 
 .dropdown-list {
   background-color: #c9c9c9;
+  z-index: 999;
 }
 
 .dropdown-list.w--open {
@@ -3387,7 +3388,7 @@ figcaption {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 100000000000000;
+  z-index: 49;
   display: none;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -4467,7 +4468,10 @@ figcaption {
 }
 
 .sticky-anchor.w--current {
-  color: #458dc9;
+  background-image: linear-gradient(103deg, #9076fc 16%, #61cfeb 88%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sticky-menu-box {
