@@ -136,9 +136,9 @@
     display: block;
   }
 
-  .h4-small {
+  /* .h4-small {
     background-color: red;
-  }
+  } */
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -274,9 +274,9 @@
     opacity: 0;
   }
 
-  .h4-small {
+  /* .h4-small {
     background-color: green;
-  }
+  } */
 }
 
 @media (max-width: 767px) and (min-width: 480px) {
@@ -412,9 +412,9 @@
     opacity: 0;
   }
 
-  .h4-small {
+  /* .h4-small {
     background-color: orange;
-  }
+  } */
 }
 
 @media (max-width: 479px) {
