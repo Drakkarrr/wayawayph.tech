@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+.bg-custom {
+  background-image: url('https://assets.website-files.com/6453ce1cefcbb05dac8d9210/648069c36efd32e7c30e2b59_Hero%20Home%20Image.webp') !important;
+  background-position: center !important;
+}
+
 article,
 aside,
 details,
