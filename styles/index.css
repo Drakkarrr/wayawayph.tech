@@ -20,11 +20,13 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
+.bg-custom {
+  background-image: url('https://assets.website-files.com/6453ce1cefcbb05dac8d9210/648069c36efd32e7c30e2b59_Hero%20Home%20Image.webp') !important;
+  background-position: center !important;
 }
 
-.bg-custom {
+body {
+  margin: 0;
   background-image: url('https://assets.website-files.com/6453ce1cefcbb05dac8d9210/648069c36efd32e7c30e2b59_Hero%20Home%20Image.webp') !important;
   background-position: center !important;
 }
@@ -3521,7 +3523,7 @@ figcaption {
   min-height: 300px;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px 6% 260px;
+  padding: 20px 6% 25px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -12132,10 +12134,10 @@ section.fade-out {
 }
 
 .main {
-  max-width: 1200px;
   margin: auto;
   transition: all 0.5s ease-in-out;
   position: relative;
+  padding: 23px;
 }
 
 .main.fade-out {
@@ -12501,12 +12503,10 @@ button {
 .header .nav-inner ul li a:hover {
   color: var(--main-color);
 }
-/*----------------
- Home Section
-------------------*/
+
 .home-section {
-  /*display: flex;*/
   padding: 120px 0;
+  /* background-color: red; */
 }
 .home-section.active {
   display: flex;
