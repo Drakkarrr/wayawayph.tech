@@ -22,11 +22,6 @@ html {
 
 body {
   margin: 0;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--pink-light),
-    var(--cyan-light)
-  );
 }
 
 .bg-custom {
@@ -3113,6 +3108,14 @@ figcaption {
 
 .go-up-button.w--current {
   z-index: 48;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--pink-light),
+    var(--cyan-light)
+  );
 }
 
 .footer-form {
