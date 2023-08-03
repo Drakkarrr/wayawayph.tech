@@ -12116,14 +12116,13 @@ section.fade-out {
   height: 110vh;
   transition: all 0.5s ease-in-out;
   position: relative;
-  padding: 2.1rem 4.9rem;
-  display: grid;
-  place-items: center;
   background-image: linear-gradient(
     to bottom right,
     var(--pink-light),
     var(--cyan-light)
   );
+  display: grid;
+  place-items: center;
 }
 
 .main.fade-out {
@@ -12502,8 +12501,8 @@ button {
 
 .home-section {
   padding: 120px 0;
-  width: 100%;
-  height: 100%;
+  width: 88%;
+  height: 90%;
 }
 .home-section.active {
   display: flex;
