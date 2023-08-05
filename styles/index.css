@@ -297,8 +297,13 @@ body {
   color: #000;
   font-family: Inter, sans-serif;
   letter-spacing: -0.5px;
-  background-image: url('https://assets.website-files.com/6453ce1cefcbb05dac8d9210/648069c36efd32e7c30e2b59_Hero%20Home%20Image.webp') !important;
-  background-position: center !important;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--pink-light),
+    var(--cyan-light)
+  );
+  /* background-image: url('https://assets.website-files.com/6453ce1cefcbb05dac8d9210/648069c36efd32e7c30e2b59_Hero%20Home%20Image.webp') !important;
+  background-position: center !important; */
 }
 
 img {
@@ -3448,8 +3453,6 @@ figcaption {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 95px;
-  background-color: #f2f0e6;
 }
 
 .hero-section.about-us {
@@ -11025,7 +11028,7 @@ figcaption {
   }
 
   .hero-box {
-    padding: 90px 0% 280px;
+    padding: 90px 0% 63px;
   }
 
   .star {
@@ -12113,14 +12116,9 @@ section.fade-out {
 }
 
 .main {
-  height: 110vh;
+  height: 100vh;
   transition: all 0.5s ease-in-out;
   position: relative;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--pink-light),
-    var(--cyan-light)
-  );
   display: grid;
   place-items: center;
 }
