@@ -310,6 +310,11 @@ body {
   letter-spacing: -0.5px;
 }
 
+.sec-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -321,10 +326,10 @@ html.w-mod-touch * {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border-radius: 30px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  border-radius: 30px !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
 }
 
 .w-block {
