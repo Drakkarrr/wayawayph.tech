@@ -3432,9 +3432,15 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f9f7ee;
   font-size: 14px;
   text-align: center;
+  background-image: linear-gradient(
+    to bottom left,
+    var(--pink-light),
+    var(--cyan-light)
+  ) !important;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .navlink-2 {
