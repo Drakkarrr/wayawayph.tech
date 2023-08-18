@@ -312,7 +312,7 @@ body {
 
 .sec-cont {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
 }
 
 img {
@@ -10838,6 +10838,10 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+  .sec-cont {
+    display: block;
+  }
+
   h1 {
     font-size: 30px;
     line-height: 36px;
